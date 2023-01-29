@@ -6,20 +6,18 @@ import { signIn, signOut, useSession } from "next-auth/react";
 import { trpc } from "../utils/trpc";
 
 const Home: NextPage = () => {
-
   return (
     <>
       <Head>
-        <title>Create T3 App</title>
+        <title>Dungeons & Dummies</title>
         <meta name="description" content="Dungeons And Dummies" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
-        
+      <main className="my-8 flex justify-center">
+        <h1 className="text-2xl">Bem vindo ao RPG tático Dungeons & Dummies</h1>
       </main>
     </>
   );
 };
 
 export default Home;
-
